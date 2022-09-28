@@ -1,3 +1,11 @@
+/*
+* https://relevel.com/courses/software-testing-course-0001/schedule/class-details/1a753a86-6c86-42e3-9945-2b5425a3abf8/assignment/280406fb-a2b1-4039-aa3b-5d81c79cebae
+Home/Software Testing Course/Real Time UI Scenario - 2/Assignment -1
+
+Assignment -1
+Submission Date - 10th Oct, 2022, 10 AM
+Requirements: Write code for handling the alerts and deleting the customer on the below-mentioned
+* website.http://demo.guru99.com/test/delete_customer.php*/
 package ClassCodes;//import java.util.*;
 
 import Base.PredefinedActions;
