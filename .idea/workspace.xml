@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b303eab8-3df0-4e48-ad73-b373e719e25e" name="Changes" comment="" />
+    <list default="true" id="b303eab8-3df0-4e48-ad73-b373e719e25e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/relevel_testing/java/ActionsClass/ActionsBasicDoubleClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/relevel_testing/java/ActionsClass/ActionsBasicsClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/relevel_testing/java/ActionsClass/ActionsBasicsDragDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/relevel_testing/java/ActionsClass/ActionsBasicsMouseHover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/EaseMyTrip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base/PredefinedActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/PredefinedActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/relevel_testing/java/AssignmentGmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/AssignmentGmailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/relevel_testing/java/GmailUsingAxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/GmailUsingAxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/relevel_testing/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/relevel_testing/java/MakeMyTripLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/MakeMyTripLogin.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,36 +60,37 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/palas/IdeaProjects/Relevel Testing",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/palas/IdeaProjects/Relevel Testing&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\palas\IdeaProjects\SeleniumBasics\src\main\java\org\example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ActionsClass" />
       <recent name="Basics" />
       <recent name="Assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TableEx7CumAssignment">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.Main" />
+  <component name="RunManager" selected="Application.EaseMyTrip">
+    <configuration name="ActionsBasicDoubleClick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ActionsClass.ActionsBasicDoubleClick" />
       <module name="SeleniumBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.*" />
+          <option name="PATTERN" value="ActionsClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableEx4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.TableEx4" />
+    <configuration name="ActionsBasicsDragDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ActionsClass.ActionsBasicsDragDrop" />
       <module name="SeleniumBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.*" />
+          <option name="PATTERN" value="ActionsClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableEx5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.TableEx5" />
+    <configuration name="ActionsBasicsMouseHover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ActionsClass.ActionsBasicsMouseHover" />
       <module name="SeleniumBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.*" />
+          <option name="PATTERN" value="ActionsClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableEx6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.TableEx6" />
+    <configuration name="EaseMyTrip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassCodes.EaseMyTrip" />
       <module name="SeleniumBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.*" />
+          <option name="PATTERN" value="ClassCodes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableEx7CumAssignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.TableEx7CumAssignment" />
+    <configuration name="MakeMyTripLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassCodes.MakeMyTripLogin" />
       <module name="SeleniumBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.*" />
+          <option name="PATTERN" value="ClassCodes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TableEx7CumAssignment" />
-        <item itemvalue="Application.TableEx5" />
-        <item itemvalue="Application.TableEx6" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TableEx4" />
+        <item itemvalue="Application.EaseMyTrip" />
+        <item itemvalue="Application.MakeMyTripLogin" />
+        <item itemvalue="Application.ActionsBasicsMouseHover" />
+        <item itemvalue="Application.ActionsBasicsDragDrop" />
+        <item itemvalue="Application.ActionsBasicDoubleClick" />
       </list>
     </recent_temporary>
   </component>
@@ -163,13 +176,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664271569184</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Selenium 27092022 15:13">
+      <created>1664271794162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664271794162</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Selenium 27092022 15:13">
+      <created>1664271844115</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664271844115</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Selenium 27092022 15:08" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium 27092022 15:08" />
+    <MESSAGE value="Selenium 27092022 15:13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 27092022 15:13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

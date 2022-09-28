@@ -1,3 +1,5 @@
+package ClassCodes;
+
 import Base.PredefinedActions;
 import org.openqa.selenium.WebDriver;
 
@@ -22,7 +24,9 @@ public class MakeMyTripLogin extends PredefinedActions {
         //driver.findElement(By.xpath("//li[@data-cy='account']//following-sibling::div//p[text()='Login or Create Account']")).click();
         //driver.findElement(By.xpath("//*[@class='makeFlex column makeRelative vrtlCenter conCurLang geoSwitcher']//ancestor::div//div[@class='makeFlex column flexOne whiteText latoBold']")).click();
         //driver.findElement(By.xpath("//*[contains(@class,'makeFlex hrtlCenter prependTop5 appendBottom40')]//child::div//p[@data-cy='LoginHeaderText']")).click();
-        
+        //driver.findElement(By.xpath("//*[@data-cy='landingContainer']//preceding::li[@data-cy='account']")).click();
+        //driver.findElement(By.xpath("//*[@class='makeFlex hrtlCenter prependTop5 appendBottom40']//descendant::div[4]")).click();
+        //driver.findElement(By.xpath("//*[@class='makeFlex hrtlCenter prependTop5 appendBottom40']//descendant-or-self::div//span[@data-cy='myIconWhite']")).click();
         Thread.sleep(2000);
 
 
