@@ -14,7 +14,7 @@ public class PredefinedActions {
         driver.manage().window().maximize();
 
 
-       System.out.println("STEP -> Opening Given " + url);
+       System.out.println("STEP -> Opening Given URL : " + url);
         driver.get(url);
         return driver;
     }
@@ -24,7 +24,7 @@ public class PredefinedActions {
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
 
-        System.out.println("STEP -> Opening Given " + url);
+        System.out.println("STEP -> Opening Given URL : " + url);
         driver.get(url);
         return driver;
     }
