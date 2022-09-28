@@ -1,3 +1,14 @@
+/*https://relevel.com/courses/software-testing-course-0001/schedule/class-details/15c80436-ca9f-44d3-8b46-d9686ca47509/assignment/1c063de0-87ce-4c5c-aa0e-fa3541864d5b
+Home/Software Testing Course/Real Time UI Scenario - 1/Assignment -1
+Assignment -1
+Submission Date - 4th Oct, 2022, 10 AM
+Requirements: Route to easemytrip.com
+Hover on more and select gift cards using actions click.
+Scroll down to FAQs.
+Hover on the same.
+Right-click on the first question.
+Pick the answer and print it in the Console.
+* */
 package ClassCodes;//import java.util.*;
 
 import Base.PredefinedActions;

@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b303eab8-3df0-4e48-ad73-b373e719e25e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/relevel_testing/java/ActionsClass/ActionsBasicDoubleClick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/relevel_testing/java/ActionsClass/ActionsBasicsClick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/relevel_testing/java/ActionsClass/ActionsBasicsDragDrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/relevel_testing/java/ActionsClass/ActionsBasicsMouseHover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/EaseMyTrip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base/PredefinedActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/PredefinedActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/relevel_testing/java/AssignmentGmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/AssignmentGmailTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/relevel_testing/java/GmailUsingAxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/GmailUsingAxes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/relevel_testing/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/relevel_testing/java/MakeMyTripLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/MakeMyTripLogin.java" afterDir="false" />
-    </list>
+    <list default="true" id="b303eab8-3df0-4e48-ad73-b373e719e25e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,14 +178,22 @@
       <option name="project" value="LOCAL" />
       <updated>1664271844115</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Selenium 28092022">
+      <created>1664368163885</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664368163885</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Selenium 27092022 15:08" />
     <MESSAGE value="Selenium 27092022 15:13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium 27092022 15:13" />
+    <MESSAGE value="Selenium 28092022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 28092022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
