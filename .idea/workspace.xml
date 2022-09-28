@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b303eab8-3df0-4e48-ad73-b373e719e25e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/relevel_testing/AdditonalAssignment/JavaAdditionalAssignment/EvenOdd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/AlertHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/AlertHandle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <recent name="Assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AlertHandle">
+  <component name="RunManager" selected="Application.EvenOdd">
     <configuration name="AlertHandle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClassCodes.AlertHandle" />
       <module name="SeleniumBasics" />
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassCodes.LogTest" />
+    <configuration name="EvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAdditionalAssignment.EvenOdd" />
       <module name="SeleniumBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassCodes.*" />
+          <option name="PATTERN" value="JavaAdditionalAssignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakeMyTripLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassCodes.MakeMyTripLogin" />
+    <configuration name="LogTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassCodes.LogTest" />
       <module name="SeleniumBasics" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EvenOdd" />
         <item itemvalue="Application.AlertHandle" />
         <item itemvalue="Application.SwitchMonth" />
         <item itemvalue="Application.LogTest" />
         <item itemvalue="Application.EaseMyTrip" />
-        <item itemvalue="Application.MakeMyTripLogin" />
       </list>
     </recent_temporary>
   </component>
