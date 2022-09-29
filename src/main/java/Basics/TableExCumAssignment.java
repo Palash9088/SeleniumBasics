@@ -5,12 +5,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class TableEx2 extends PredefinedActions {
+public class TableExCumAssignment extends PredefinedActions {
     WebDriver driver;
 
-    void setUp()
-    {
-       driver =  start(); // if we did not catch here in driver it will give null pointer exception
+    void setUp() {
+        driver = start(); // if we did not catch here in driver it will give null pointer exception
     }
 
     void openPage() throws InterruptedException {
@@ -18,19 +17,30 @@ public class TableEx2 extends PredefinedActions {
         driver.findElement(By.linkText("Demo Tables")).click();
         Thread.sleep(3000);
     }
+
     void printTable() throws InterruptedException { // Table Print without loop
 
         WebElement row = driver.findElement(By.xpath("//*[@id='table1']"));
         System.out.println(row.getText());
     }
-    void printIfSurnameContains(String sname)
-    {
-        for(int index=1;index<=5;index++) {
-                WebElement surname = driver.findElement(By.xpath("//*[@id='table1']/tbody/tr["+index+"]/td[3]"));
-            if (surname.getText().equals(sname))
-                System.out.println(driver.findElement(By.xpath("//*[@id='table1']/tbody/tr["+index+"]")).getText());
+
+    void validateUserName() {
+        int totalRows = driver.findElements(By.xpath("//table[@id='table1']/tbody/tr")).size();
+        for (int index = 1; index <= totalRows; index++) {
+            String firstname = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr[" + index + "]/td[2]")).getText();
+            String lastname = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr[" + index + "]/td[3]")).getText();
+            String username = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr[" + index + "]/td[4]")).getText();
+
+            if ((firstname.toLowerCase().charAt(0) + lastname.toLowerCase()).equals(username)) {
+                System.out.println(firstname + " " + lastname + " " + " -> " + username);
+
+            } else {
+                System.out.println("Test Failed");
+            }
         }
+
     }
+
     void tearDown() throws InterruptedException {
         Thread.sleep(3000);
         System.out.println("Driver Closed");
@@ -38,11 +48,11 @@ public class TableEx2 extends PredefinedActions {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        TableEx2 tableEx1 = new TableEx2();
+        TableExCumAssignment tableEx1 = new TableExCumAssignment();
         tableEx1.setUp();
         tableEx1.openPage();
         //tableEx1.printTable();
-        tableEx1.printIfSurnameContains("Sharma");
+        tableEx1.validateUserName();
         tableEx1.tearDown();
 
     }
