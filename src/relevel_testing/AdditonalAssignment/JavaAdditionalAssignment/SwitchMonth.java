@@ -9,7 +9,7 @@ public class SwitchMonth {
                 System.out.println("January has 31 days in " + year + ".");
                 break;
             case 2:
-                if (year % 2 == 0)
+                if (year % 4 == 0 && year % 100 == 0 && year % 400 == 0)
                     System.out.println("February has 29 days in " + year + "." + "\n" + "This is Leap Year");
                 else
                     System.out.println("February has 28 days in " + year + "." + "\n" + "This is not a Leap Year");

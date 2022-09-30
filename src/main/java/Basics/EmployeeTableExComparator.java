@@ -21,7 +21,7 @@ public class EmployeeTableExComparator extends PredefinedActions {
     }
 
     void addEmpToSet() {
-        Set<Employee> employees = new LinkedHashSet<>();
+        Set<Employee> employeesSet = new LinkedHashSet<>();
         int totalRows = driver.findElements(By.xpath("//table[@class='table table-striped']/tbody/tr")).size();
         for (int index = 1; index <= totalRows; index++) {
             int empId = Integer.parseInt(driver.findElement(By.xpath("//table[@class='table table-striped']/tbody/tr[" + index + "]/td[2]")).getText());
@@ -35,13 +35,17 @@ public class EmployeeTableExComparator extends PredefinedActions {
             e1.setEmpManagerId(empMgrId);
             e1.setEmpDept(empDept);
 
-            employees.add(e1);
+            boolean flag = employeesSet.add(e1);
+            {
+                if (!flag)
+                {
+                    System.out.println("Duplicate row "+" Employee Id is :" + e1.getEmpId() + " Employee Name is :" + e1.getEmpName());
+                }
+            }
+            employeesSet.add(e1);
         }
-        System.out.println(employees.size());
+        System.out.println("No. of Unique Rows are :" + employeesSet.size());
 
-        for (Employee em : employees) {
-            System.out.println(em.getEmpName());
-        }
     }
 
     public static void main(String[] args) throws InterruptedException {

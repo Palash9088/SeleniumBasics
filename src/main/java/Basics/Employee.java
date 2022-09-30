@@ -10,9 +10,15 @@ public class Employee {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
+            Employee e = (Employee) o;
+            if(this.empId == e.empId && this.empName.equals(e.empName))
+                return true;
+            else
+                return false;
+
+/*        if (this == o) return true;
         if (!(o instanceof Employee employee)) return false;
-        return getEmpId() == employee.getEmpId() && getEmpManagerId() == employee.getEmpManagerId() && getEmpName().equals(employee.getEmpName()) && getEmpDept().equals(employee.getEmpDept());
+        return getEmpId() == employee.getEmpId() && getEmpManagerId() == employee.getEmpManagerId() && getEmpName().equals(employee.getEmpName()) && getEmpDept().equals(employee.getEmpDept());*/
     }
 
     @Override

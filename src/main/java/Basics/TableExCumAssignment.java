@@ -26,19 +26,20 @@ public class TableExCumAssignment extends PredefinedActions {
 
     void validateUserName() {
         System.out.println("Step -> verifying Username");
+        boolean flag;
+
         int totalRows = driver.findElements(By.xpath("//table[@id='table1']/tbody/tr")).size();
         for (int index = 1; index <= totalRows; index++) {
             String firstname = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr[" + index + "]/td[2]")).getText();
             String lastname = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr[" + index + "]/td[3]")).getText();
             String username = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr[" + index + "]/td[4]")).getText();
 
+            flag = (firstname.toLowerCase().charAt(0) + lastname.toLowerCase()).equals(username);
 
-            if ((firstname.toLowerCase().charAt(0) + lastname.toLowerCase()).equals(username)) {
+            if (flag) {
                 System.out.println(firstname + " " + lastname + " " + " -> " + username);
-
-            } else {
+            } else
                 System.out.println("Test Failed");
-            }
         }
 
     }

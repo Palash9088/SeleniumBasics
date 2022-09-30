@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b303eab8-3df0-4e48-ad73-b373e719e25e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Basics/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Basics/EmployeeTableExComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Basics/ValidateThroughProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/InputProp.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basics/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basics/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basics/EmployeeTableExComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basics/EmployeeTableExComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basics/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Basics/TableExCumAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basics/TableExCumAssignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/LogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/LogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/relevel_testing/AdditonalAssignment/JavaAdditionalAssignment/SwitchMonth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/AdditonalAssignment/JavaAdditionalAssignment/SwitchMonth.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -73,12 +76,12 @@
       <recent name="C:\Users\palas\IdeaProjects\SeleniumBasics\src\main\java\org\example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Basics" />
       <recent name="ActionsClass" />
+      <recent name="Basics" />
       <recent name="Assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeeTableExComparator">
+  <component name="RunManager" selected="Application.SwitchMonth">
     <configuration name="EmployeeTableExComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basics.EmployeeTableExComparator" />
       <module name="SeleniumBasics" />
@@ -92,21 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassCodes.LogTest" />
-      <module name="SeleniumBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ClassCodes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TableEx8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.TableEx8" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.Main" />
       <module name="SeleniumBasics" />
       <extension name="coverage">
         <pattern>
@@ -118,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableExComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.Collections.TableExComparator" />
+    <configuration name="SwitchMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAdditionalAssignment.SwitchMonth" />
       <module name="SeleniumBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.*" />
+          <option name="PATTERN" value="JavaAdditionalAssignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,13 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidateThroughProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.ValidateThroughProperty" />
+      <module name="SeleniumBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmployeeTableExComparator" />
-        <item itemvalue="Application.TableExComparator" />
-        <item itemvalue="Application.LogTest" />
+        <item itemvalue="Application.SwitchMonth" />
+        <item itemvalue="Application.ValidateThroughProperty" />
         <item itemvalue="Application.TableExCumAssignment" />
-        <item itemvalue="Application.TableEx8" />
+        <item itemvalue="Application.EmployeeTableExComparator" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -212,14 +215,7 @@
       <option name="project" value="LOCAL" />
       <updated>1664387270692</updated>
     </task>
-    <task id="LOCAL-00008" summary="Selenium 28092022">
-      <created>1664449077662</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1664449077662</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
