@@ -19,7 +19,7 @@ Output : Missing Link -> Instagram
 4) Print the name of link where href attribute is missing.
 Output : Synechron*/
 
-public class MissingLinkAssignment4 {
+public class Assignment4MissingLink {
     public static void main(String[] args) {
 
 

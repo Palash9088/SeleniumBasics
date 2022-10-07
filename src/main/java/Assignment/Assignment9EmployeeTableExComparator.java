@@ -1,4 +1,4 @@
-package Basics;//import java.util.*;
+package Assignment;//import java.util.*;
 
 import Base.PredefinedActions;
 import org.openqa.selenium.By;
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class EmployeeTableExComparatorAssignment9 extends PredefinedActions {
+public class Assignment9EmployeeTableExComparator extends PredefinedActions {
     WebDriver driver;
 
     void setUp() {
@@ -21,7 +21,7 @@ public class EmployeeTableExComparatorAssignment9 extends PredefinedActions {
     }
 
     void addEmpToSet() {
-        Set<Employee> employeesSet = new LinkedHashSet<>();
+        Set<Assignment9Employee> employeesSet = new LinkedHashSet<>();
         int totalRows = driver.findElements(By.xpath("//table[@class='table table-striped']/tbody/tr")).size();
         for (int index = 1; index <= totalRows; index++) {
             int empId = Integer.parseInt(driver.findElement(By.xpath("//table[@class='table table-striped']/tbody/tr[" + index + "]/td[2]")).getText());
@@ -29,7 +29,7 @@ public class EmployeeTableExComparatorAssignment9 extends PredefinedActions {
             int empMgrId = Integer.parseInt(driver.findElement(By.xpath("//table[@class='table table-striped']/tbody/tr[" + index + "]/td[4]")).getText());
             String empDept = driver.findElement(By.xpath("//table[@class='table table-striped']/tbody/tr[" + index + "]/td[5]")).getText();
 
-            Employee e1 = new Employee();
+            Assignment9Employee e1 = new Assignment9Employee();
             e1.setEmpId(empId);
             e1.setEmpName(empName);
             e1.setEmpManagerId(empMgrId);
@@ -49,7 +49,7 @@ public class EmployeeTableExComparatorAssignment9 extends PredefinedActions {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        EmployeeTableExComparatorAssignment9 obj = new EmployeeTableExComparatorAssignment9();
+        Assignment9EmployeeTableExComparator obj = new Assignment9EmployeeTableExComparator();
         obj.setUp();
         obj.openPage();
         obj.addEmpToSet();

@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class Main{
+public class Main  {
     public static void main(String[] args) throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
@@ -24,6 +24,7 @@ public class Main{
         Actions act=new Actions(driver);
         act.dragAndDrop(from,to).build().perform();
         Thread.sleep(2000);
+
 
 
     }

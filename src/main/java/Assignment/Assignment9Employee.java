@@ -1,8 +1,8 @@
-package Basics;//import java.util.*;
+package Assignment;//import java.util.*;
 
 import java.util.Objects;
 
-public class Employee {
+public class Assignment9Employee {
     private int empId;
     private String empName;
     private int empManagerId;
@@ -10,11 +10,8 @@ public class Employee {
 
     @Override
     public boolean equals(Object o) {
-            Employee e = (Employee) o;
-            if(this.empId == e.empId && this.empName.equals(e.empName))
-                return true;
-            else
-                return false;
+            Assignment9Employee e = (Assignment9Employee) o;
+        return this.empId == e.empId && this.empName.equals(e.empName);
 
 /*        if (this == o) return true;
         if (!(o instanceof Employee employee)) return false;

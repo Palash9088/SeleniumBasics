@@ -4,15 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b303eab8-3df0-4e48-ad73-b373e719e25e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Basics/ValidateThroughProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/InputProp.properties" afterDir="false" />
+    <list default="true" id="b303eab8-3df0-4e48-ad73-b373e719e25e" name="Changes" comment="Selenium 28092022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Basics/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basics/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Basics/EmployeeTableExComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basics/EmployeeTableExComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment/Assignment10ValidateThroughProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment/Assignment10ValidateThroughProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment/Assignment11IframeHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment/Assignment11IframeHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment/Assignment13MultiWindowHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment/Assignment13MultiWindowHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment/Assignment13MultiWindowHandlingCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment/Assignment13MultiWindowHandlingCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment/Assignment2FacebookLoginAutomate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment/Assignment2FacebookLoginAutomate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment/Assignment3FacebookSignUpAutomate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment/Assignment3FacebookSignUpAutomate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment/Assignment4MissingLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment/Assignment4MissingLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment/Assignment5MultiDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment/Assignment5MultiDropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment/Assignment6FrequencyOfEachWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment/Assignment6FrequencyOfEachWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment/Assignment7TableEx7Cum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment/Assignment7TableEx7Cum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment/Assignment8TableExCum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment/Assignment8TableExCum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment/Assignment9Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment/Assignment9Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment/Assignment9EmployeeTableExComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment/Assignment9EmployeeTableExComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Basics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basics/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Basics/TableExCumAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basics/TableExCumAssignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNGBasics/AlertHandleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNGBasics/AlertHandleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNGBasics/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNGBasics/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNGBasics/LoginTestWithDataProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNGBasics/LoginTestWithDataProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/relevel_testing/AdditonalAssignment/JavaAdditionalAssignment/SwitchMonth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/AdditonalAssignment/JavaAdditionalAssignment/SwitchMonth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/relevel_testing/AssignmentSelenium/AssertNotEqualTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/AssignmentSelenium/AssertNotEqualTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/AlertHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/java/ClassCodes/AlertHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/relevel_testing/java/ExcelFileReading/ExcelFileReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/java/ExcelFileReading/ExcelFileReading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/relevel_testing/java/ExcelFileReading/WriteInExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevel_testing/java/ExcelFileReading/WriteInExcel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,103 +74,118 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/palas/IdeaProjects/Relevel Testing&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/palas/Downloads/Compressed/gavroche.zip",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.40689656",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\palas\IdeaProjects\SeleniumBasics\src\main\java\org\example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TestNGBasics" />
+      <recent name="Assignment" />
       <recent name="ActionsClass" />
       <recent name="Basics" />
-      <recent name="Assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SwitchMonth">
-    <configuration name="EmployeeTableExComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.EmployeeTableExComparator" />
+  <component name="RunManager" selected="TestNG.AssertNotEqualTest (1)">
+    <configuration name="AssertNotEqual" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssertNotEqual" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.Main" />
+    <configuration name="AssertNotEqualTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssertNotEqualTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAdditionalAssignment.SwitchMonth" />
+    <configuration name="AssertNotEqualTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaAdditionalAssignment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssertNotEqualTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableExCumAssignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.TableExCumAssignment" />
+    <configuration name="LoginTestWithDataProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.*" />
+          <option name="PATTERN" value="TestNGBasics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestNGBasics" />
+      <option name="MAIN_CLASS_NAME" value="TestNGBasics.LoginTestWithDataProviderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateThroughProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.ValidateThroughProperty" />
+    <configuration name="LoginTestWithDataProviderTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.*" />
+          <option name="PATTERN" value="TestNGBasics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestNGBasics" />
+      <option name="MAIN_CLASS_NAME" value="TestNGBasics.LoginTestWithDataProviderTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.AssertNotEqual" />
+      <item itemvalue="TestNG.AssertNotEqualTest" />
+      <item itemvalue="TestNG.AssertNotEqualTest (1)" />
+      <item itemvalue="TestNG.LoginTestWithDataProviderTest" />
+      <item itemvalue="TestNG.LoginTestWithDataProviderTest.loginTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SwitchMonth" />
-        <item itemvalue="Application.ValidateThroughProperty" />
-        <item itemvalue="Application.TableExCumAssignment" />
-        <item itemvalue="Application.EmployeeTableExComparator" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.AssertNotEqualTest (1)" />
+        <item itemvalue="TestNG.AssertNotEqualTest" />
+        <item itemvalue="TestNG.AssertNotEqual" />
+        <item itemvalue="TestNG.LoginTestWithDataProviderTest.loginTest" />
+        <item itemvalue="TestNG.LoginTestWithDataProviderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -224,16 +256,6 @@
     <MESSAGE value="Selenium 27092022 15:13" />
     <MESSAGE value="Selenium 28092022" />
     <option name="LAST_COMMIT_MESSAGE" value="Selenium 28092022" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.net.SocketException" package="java.net" />
-          <option name="timeStamp" value="3" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,8 +1,8 @@
-package Basics.Collections;//import java.util.*;
+package Assignment;//import java.util.*;
 
 import java.util.*;
 
-public class FrequencyOfEachWord {
+public class Assignment6FrequencyOfEachWord {
 
     void frequencyOf(String words)
     {
@@ -54,7 +54,7 @@ public class FrequencyOfEachWord {
     }
 
     public static void main(String[] args) {
-        FrequencyOfEachWord fr = new FrequencyOfEachWord();
+        Assignment6FrequencyOfEachWord fr = new Assignment6FrequencyOfEachWord();
        String words = "Hi Hello GM GM Hello Hi Hi Hello Hi";
         int[] arr = {1,4,3,4,3,2,4,1,4};
         fr.frequencyOf(words);

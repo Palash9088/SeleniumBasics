@@ -7,14 +7,12 @@ Handle multi window
 import Base.PredefinedActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 import java.util.Set;
 
-public class Assignment13MultiWindowHandling extends PredefinedActions {
+public class Assignment13MultiWindowHandlingCopy extends PredefinedActions {
 
     WebDriver driver;
 
@@ -23,47 +21,41 @@ public class Assignment13MultiWindowHandling extends PredefinedActions {
     }
 
     void browserHandling() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
-        String mainWin = driver.getWindowHandle();
-        System.out.println(mainWin);
+        try {
+            String mainWindow = driver.getWindowHandle(); // will return session Id for main window
 
-        System.out.println("Step -> Click on Google Button");
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@value='Google']"))).click();
+            driver.findElement(By.xpath("//a[@value='Google']")).click();
+            driver.findElement(By.xpath("//a[@value='ThoughtWorks']")).click();
+            driver.findElement(By.xpath("//a[@value='FB']")).click();
+            driver.findElement(By.xpath("//a[@value='Amazon']")).click();
+            driver.findElement(By.xpath("//a[@value='Flipkart']")).click();
+            driver.findElement(By.xpath("//a[@value='Nvidia']")).click();
+            driver.findElement(By.xpath("//a[@value='VMware']")).click();
 
-        Set<String> multiTab = driver.getWindowHandles();
-        iterator(multiTab,mainWin);
+            Set<String> multiWindow = driver.getWindowHandles(); // return set of string
+            System.out.println("Please find below all the titles of windows open: ");
 
-        System.out.println("Step -> Click on ThoughtWorks Button");
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@value='ThoughtWorks']"))).click();
+            Iterator<String> itr = multiWindow.iterator();
 
-        Iterator<String> itr = multiTab.iterator();
-        while (itr.hasNext()) {
-            String currentTab = itr.next();
-            if (!currentTab.equals(mainWin))
-                driver.switchTo().window(currentTab);
-            System.out.println(driver.getTitle());
+            while (itr.hasNext()) {
+                String currentBrowser = itr.next();
+                if (!currentBrowser.equals(mainWindow)) {
+                    driver.switchTo().window(currentBrowser);
+                    System.out.println(driver.getTitle());
+                    driver.close();
+                }
+            }
+            driver.switchTo().window(mainWindow);
+        } catch (NoSuchElementException ne) {
+            ne.printStackTrace();
+        } finally {
+            driver.close();
         }
-        driver.close();
-        driver.switchTo().window(mainWin);
-
     }
 
-    void iterator(Set <String> multiTab, String mainWin) {
-        Iterator<String> itr = multiTab.iterator();
-        while (itr.hasNext()) {
-            String currentTab = itr.next();
-            if (!currentTab.equals(mainWin))
-                driver.switchTo().window(currentTab);
-            System.out.println(driver.getTitle());
-
-        }
-        driver.close();
-        driver.switchTo().window(mainWin);
-
-    }
 
     public static void main(String[] args) {
-        Assignment13MultiWindowHandling obj = new Assignment13MultiWindowHandling();
+        Assignment13MultiWindowHandlingCopy obj = new Assignment13MultiWindowHandlingCopy();
         obj.setDriver("D:\\Relevel Classes\\_Java_Study\\Selenium Session Videos\\Session 12 - MultiBrowser, MultiWindow Handiling\\NewTab.html");
         obj.browserHandling();
     }

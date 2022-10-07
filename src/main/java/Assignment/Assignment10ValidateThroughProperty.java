@@ -14,13 +14,14 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
-public class ValidateThroughPropertyAssignment10 extends PredefinedActions {
-    WebDriver driver;
+public class Assignment10ValidateThroughProperty extends PredefinedActions {
+    static WebDriver driver;
     String firstName, lastName,companyName;
 
     void setDriver() {
         driver = start();
     }
+
 
     void openBasicElement() {
         System.out.println("Step -> Open Basic element Page");
@@ -79,16 +80,12 @@ public class ValidateThroughPropertyAssignment10 extends PredefinedActions {
     }
 
     public static void main(String[] args) throws IOException {
-        ValidateThroughPropertyAssignment10 obj = new ValidateThroughPropertyAssignment10();
+        Assignment10ValidateThroughProperty obj = new Assignment10ValidateThroughProperty();
         obj.setDriver();
         obj.propRead();
         obj.openBasicElement();
         obj.verifyAlert();
-        obj.tearDown();
 
     }
-    private void tearDown()
-    {
-        driver.quit();
-    }
+
 }

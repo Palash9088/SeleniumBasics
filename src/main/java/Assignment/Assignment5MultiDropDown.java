@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-public class MultiDropDownAssignment5 extends PredefinedActions {
+public class Assignment5MultiDropDown extends PredefinedActions {
     WebDriver driver;
     void startBrowser(String url)
     {
@@ -99,7 +99,7 @@ public class MultiDropDownAssignment5 extends PredefinedActions {
     }
 
     public static void main(String[] args) {
-        MultiDropDownAssignment5 multiDropDownAssignment5 = new MultiDropDownAssignment5();
+        Assignment5MultiDropDown multiDropDownAssignment5 = new Assignment5MultiDropDown();
         multiDropDownAssignment5.startBrowser("http://automationbykrishna.com/");
         multiDropDownAssignment5.scrollDownToMulti();
         multiDropDownAssignment5.printAllOptions();

@@ -45,7 +45,7 @@ public class SwitchMonth {
                 System.out.println("December has 31 days in " + year + ".");
                 break;
             default:
-                System.out.println("Illegal input" + month + "try again");
+                System.out.println("Illegal input " + month + " try again");
                 break;
         }
     }

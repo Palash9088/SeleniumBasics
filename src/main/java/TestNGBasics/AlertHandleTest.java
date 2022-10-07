@@ -6,21 +6,26 @@ Assignment -1
 Submission Date - 10th Oct, 2022, 10 AM
 Requirements: Write code for handling the alerts and deleting the customer on the below-mentioned
 * website.http://demo.guru99.com/test/delete_customer.php*/
-package ClassCodes;//import java.util.*;
+package TestNGBasics;//import java.util.*;
 
 import Base.PredefinedActions;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
-public class AlertHandle extends PredefinedActions {
+
+public class AlertHandleTest extends PredefinedActions {
     WebDriver driver;
 
-    void setDriver(String url)
+   public void setDriver()
     {
-        driver = start(url);
+        driver = start("https://demo.guru99.com/test/delete_customer.php");
     }
-    void handleAlert() throws InterruptedException {
+    @Test
+    void tHandleAlert() throws InterruptedException {
+        setDriver();
         System.out.println("Step -> Enter Customer ID");
         driver.findElement(By.xpath("//*[@name='cusid']")).sendKeys("Palash");
 
@@ -44,7 +49,10 @@ public class AlertHandle extends PredefinedActions {
         {
             System.out.println("Please try again");
         }
+        Assert.assertEquals(actual,"Customer Successfully Delete!");
+
     }
+
     void tearDown()
     {
         System.out.println("Closing the driver");
@@ -53,7 +61,7 @@ public class AlertHandle extends PredefinedActions {
 
    /* public static void main(String[] args) throws InterruptedException {
         AlertHandle alertHandle = new AlertHandle();
-        alertHandle.setDriver("https://demo.guru99.com/test/delete_customer.php");
+        alertHandle.setUp("https://demo.guru99.com/test/delete_customer.php");
         alertHandle.handleAlert();
         alertHandle.tearDown();
     }*/
