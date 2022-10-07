@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class TableExCumAssignment extends PredefinedActions {
+public class TableExCumAssignment8 extends PredefinedActions {
     WebDriver driver;
 
     void setUp() {
@@ -51,7 +51,7 @@ public class TableExCumAssignment extends PredefinedActions {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        TableExCumAssignment tableEx1 = new TableExCumAssignment();
+        TableExCumAssignment8 tableEx1 = new TableExCumAssignment8();
         tableEx1.setUp();
         tableEx1.openPage();
         //tableEx1.printTable();

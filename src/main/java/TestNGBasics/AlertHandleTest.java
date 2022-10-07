@@ -12,19 +12,14 @@ import Base.PredefinedActions;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
-public class AlertHandleTest extends PredefinedActions {
+public class AlertHandle extends PredefinedActions {
     WebDriver driver;
 
-    @BeforeTest
-    public void setDriver(String url) {
+    void setDriver(String url)
+    {
         driver = start(url);
     }
-
-    @Test
     void handleAlert() throws InterruptedException {
         System.out.println("Step -> Enter Customer ID");
         driver.findElement(By.xpath("//*[@name='cusid']")).sendKeys("Palash");
@@ -40,16 +35,18 @@ public class AlertHandleTest extends PredefinedActions {
         Thread.sleep(3000);
         String actual = alert.getText();
 
-        if (actual.equals("Customer Successfully Delete!")) {
+        if(actual.equals("Customer Successfully Delete!"))
+        {
             alert.accept();
             System.out.println("User Deleted successfully");
-        } else {
+        }
+        else
+        {
             System.out.println("Please try again");
         }
     }
-
-    @AfterTest
-    void tearDown() {
+    void tearDown()
+    {
         System.out.println("Closing the driver");
         driver.quit();
     }

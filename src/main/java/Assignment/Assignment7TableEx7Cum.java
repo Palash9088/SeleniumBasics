@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import java.util.HashMap;
 import java.util.Set;
 
-public class TableEx7CumAssignment extends PredefinedActions {
+public class TableEx7CumAssignment7 extends PredefinedActions {
     WebDriver driver;
 
     void setDriver() {
@@ -63,7 +63,7 @@ public class TableEx7CumAssignment extends PredefinedActions {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        TableEx7CumAssignment obj = new TableEx7CumAssignment();
+        TableEx7CumAssignment7 obj = new TableEx7CumAssignment7();
 
         obj.setDriver();
         obj.openPage();

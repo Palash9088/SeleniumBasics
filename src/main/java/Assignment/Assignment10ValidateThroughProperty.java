@@ -1,4 +1,4 @@
-package Basics;//import java.util.*;
+package Assignment;//import java.util.*;
 
 import Base.PredefinedActions;
 import org.openqa.selenium.Alert;
@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
-public class ValidateThroughProperty extends PredefinedActions {
+public class ValidateThroughPropertyAssignment10 extends PredefinedActions {
     WebDriver driver;
     String firstName, lastName,companyName;
 
@@ -79,7 +79,7 @@ public class ValidateThroughProperty extends PredefinedActions {
     }
 
     public static void main(String[] args) throws IOException {
-        ValidateThroughProperty obj = new ValidateThroughProperty();
+        ValidateThroughPropertyAssignment10 obj = new ValidateThroughPropertyAssignment10();
         obj.setDriver();
         obj.propRead();
         obj.openBasicElement();

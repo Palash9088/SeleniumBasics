@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class EmployeeTableExComparator extends PredefinedActions {
+public class EmployeeTableExComparatorAssignment9 extends PredefinedActions {
     WebDriver driver;
 
     void setUp() {
@@ -49,7 +49,7 @@ public class EmployeeTableExComparator extends PredefinedActions {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        EmployeeTableExComparator obj = new EmployeeTableExComparator();
+        EmployeeTableExComparatorAssignment9 obj = new EmployeeTableExComparatorAssignment9();
         obj.setUp();
         obj.openPage();
         obj.addEmpToSet();
