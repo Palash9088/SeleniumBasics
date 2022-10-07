@@ -12,13 +12,10 @@ import java.util.Iterator;
 import java.util.Set;
 
 public class Assignment13MultiWindowHandling extends PredefinedActions {
-
     WebDriver driver;
-
     void setDriver(String url) {
         driver = start(url);
     }
-
     void browserHandling() {
         try {
             String mainWindow = driver.getWindowHandle(); // will return session ID for main window

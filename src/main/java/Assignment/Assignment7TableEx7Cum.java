@@ -9,7 +9,6 @@ import java.util.Set;
 
 public class Assignment7TableEx7Cum extends PredefinedActions {
     WebDriver driver;
-
     void setDriver() {
         driver = start();
     }

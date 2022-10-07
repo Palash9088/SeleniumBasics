@@ -12,7 +12,6 @@ public class Assignment9Employee {
     public boolean equals(Object o) {
             Assignment9Employee e = (Assignment9Employee) o;
         return this.empId == e.empId && this.empName.equals(e.empName);
-
 /*        if (this == o) return true;
         if (!(o instanceof Employee employee)) return false;
         return getEmpId() == employee.getEmpId() && getEmpManagerId() == employee.getEmpManagerId() && getEmpName().equals(employee.getEmpName()) && getEmpDept().equals(employee.getEmpDept());*/

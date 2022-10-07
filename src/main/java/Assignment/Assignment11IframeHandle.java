@@ -20,11 +20,9 @@ import java.time.Duration;
 
 public class Assignment11IframeHandle extends PredefinedActions {
     WebDriver driver;
-
     void setDriver() {
         driver = start();
     }
-
     void iFrameAccess() throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         System.out.println("Step -> Go to Iframe Demo Page");

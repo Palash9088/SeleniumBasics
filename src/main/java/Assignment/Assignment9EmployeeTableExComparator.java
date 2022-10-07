@@ -9,11 +9,9 @@ import java.util.Set;
 
 public class Assignment9EmployeeTableExComparator extends PredefinedActions {
     WebDriver driver;
-
     void setUp() {
         driver = start(); // if we did not catch here in driver it will give null pointer exception
     }
-
     void openPage() throws InterruptedException {
         System.out.println("Opening Demo Table page");
         driver.findElement(By.linkText("Demo Tables")).click();

@@ -3,7 +3,6 @@ package Assignment;//import java.util.*;
 import java.util.*;
 
 public class Assignment6FrequencyOfEachWord {
-
     void frequencyOf(String words)
     {
         String[] wordsArray = words.split(" ");

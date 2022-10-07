@@ -17,6 +17,7 @@ public class Assignment5MultiDropDown extends PredefinedActions {
     }
     void scrollDownToMulti()
     {
+
         System.out.println("Step -> Opening Basic Element");
         driver.findElement(By.linkText("Basic Elements")).click();
         try {

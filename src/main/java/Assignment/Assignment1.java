@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Assignment1 {
+public class Assignment1 { 
     public static void setProperty() {
         System.setProperty("webdriver.chrome.driver", "src//main//resources//chromedriver.exe");
     }

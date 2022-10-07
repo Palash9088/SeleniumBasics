@@ -13,13 +13,10 @@ import java.util.NoSuchElementException;
 import java.util.Set;
 
 public class Assignment13MultiWindowHandlingCopy extends PredefinedActions {
-
     WebDriver driver;
-
     void setDriver(String url) {
         driver = start(url);
     }
-
     void browserHandling() {
         try {
             String mainWindow = driver.getWindowHandle(); // will return session Id for main window

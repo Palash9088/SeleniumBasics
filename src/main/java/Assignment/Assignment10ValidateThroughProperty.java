@@ -17,12 +17,9 @@ import java.util.Properties;
 public class Assignment10ValidateThroughProperty extends PredefinedActions {
     static WebDriver driver;
     String firstName, lastName,companyName;
-
     void setDriver() {
         driver = start();
     }
-
-
     void openBasicElement() {
         System.out.println("Step -> Open Basic element Page");
         driver.findElement(By.linkText("Basic Elements")).click();

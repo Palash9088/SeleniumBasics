@@ -9,11 +9,9 @@ import org.openqa.selenium.interactions.Actions;
 
 public class ActionsBasicsDragDrop extends PredefinedActions {
     static WebDriver driver;
-
     void setDriver(String url) {
         driver = start(url);
     }
-
     void actionClick() throws InterruptedException {
         Actions actions = new Actions(driver);
         System.out.println("Step -> Open Demos Page");

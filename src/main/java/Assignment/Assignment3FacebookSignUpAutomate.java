@@ -18,8 +18,6 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Assignment3FacebookSignUpAutomate {
     public static void main(String[] args) throws InterruptedException {
-
-
         System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
         System.out.println("Step -> Opening Chrome");
         WebDriver driver = new ChromeDriver();

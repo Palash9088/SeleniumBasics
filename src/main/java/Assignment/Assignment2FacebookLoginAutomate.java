@@ -7,6 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Assignment2FacebookLoginAutomate {
     public static void main(String[] args) throws InterruptedException {
+
         System.setProperty("webdriver.chrome.driver","src/main/resources/geckodriver.exe");
         System.out.println("Step -> Opening Browser");
         WebDriver driver = new FirefoxDriver();
